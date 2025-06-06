@@ -24,18 +24,6 @@ body {
     height: 72px;
 }
 
-.cabecalho-menu {
-    display: flex;
-    gap: 35px;
-}
-
-.cabecalho-menu-item {
-    font-family: "Inter", sans-serif;
-    color: #e5e5e5;
-    font-weight: 400;
-    font-size: 18px
-}
-
 .conteudo {
     border-top: 0.4px solid white;
     margin-bottom: 50px;
@@ -131,4 +119,66 @@ body {
     color: #e5e5e5;
     font-size: 1rem;
     line-height: 1.6;
+}
+
+.conteudo-terciario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.conteudo-terciario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #e5e5e5;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    padding: 1rem;
+}
+
+td{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.conteuto-quartenario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.conteuto-quartenario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #e5e5e5;
+    margin-bottom: 15px;
+}
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: center;
 }
