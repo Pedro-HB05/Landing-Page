@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1c1c1e, #0a0a0a)
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 35px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Inter", sans-serif;
+    color: #e5e5e5;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.conteudo {
+    border-top: 0.4px solid white;
+    margin-bottom: 50px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: baseline;
+}
+
+.conteudo-principal-titulo {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 59px;
+    color: #3b82f6;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #e5e5e5;
+}
+
+.conteudo-principal-botao {
+    background-color: #2563eb;
+    width: 180;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(46, 46, 46);
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #e5e5e5;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-imagem {
+    height: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #e5e5e5;
+    margin-bottom: 15px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #e5e5e5;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.rodape {
+    padding: 30px;
+    border-top: 0.4px solid white;
+}
+
+.rodapa-paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #e5e5e5;
+    font-size: 1rem;
+    line-height: 1.6;
+}
